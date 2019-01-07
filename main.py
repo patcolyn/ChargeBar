@@ -9,9 +9,6 @@ from threading import *
 
 class TrackerWindow(object):
 
-    def __init__(self):
-        super()
-
     def setupUi(self, TrackerWindow, app):
         TrackerWindow.setObjectName("MainWindow")
 
