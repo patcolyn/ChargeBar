@@ -93,8 +93,10 @@ class ImageProcessor(Thread):
     def run(self):
         print("Thread 2 running")
 
+        # Image recognition
         while True:
             imagesearch.imagesearch_region_loop("resources/End12.png", 0.5, 5, 25, 400, 140)
+            # Placeholder, play sound on recognition
             winsound.PlaySound('resources/sounds/click.wav', winsound.SND_FILENAME)
 
 
